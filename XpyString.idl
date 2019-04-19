@@ -1,0 +1,10 @@
+#include <com/sun/star/uno/XInterface.idl>
+ 
+module org { module openoffice { module sheet { module addin {
+ 
+    interface XPyString
+    {
+        sequence< sequence< any > > pystring( [in] string method, [in] sequence< sequence< string > > basestring, [in] any param1, [in] any param2, [in] any param3);
+    };
+ 
+}; }; }; };
